@@ -1,9 +1,6 @@
 
 import Counter  from "../components/Counter";
 
-
-
-
 describe("counter", ()=>{
     it("count", ()=>{
          cy.mount(<Counter/>)
